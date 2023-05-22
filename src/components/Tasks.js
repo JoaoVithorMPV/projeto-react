@@ -1,14 +1,14 @@
 import React from "react";
 import Task from "./Task";
 
-const Tasks2 = ({ aaa }) => {
+const Tasks = ({ bbb }) => {
   return (
     <>
-      {aaa.map((task) => (
-        <Task key={task.id} task={task} />
+      {bbb.map((ccc) => (
+        <Task key={ccc.id} ddd={ccc} />
       ))}
     </>
   );
 };
 
-export default Tasks2;
+export default Tasks;
