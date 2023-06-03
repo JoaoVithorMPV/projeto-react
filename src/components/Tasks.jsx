@@ -5,7 +5,7 @@ const Tasks = ({ bbb }) => {
   return (
     <>
       {bbb.map((ccc) => (
-        <Task key={ccc.id} ddd={ccc} />
+        <Task ddd={ccc} />
       ))}
     </>
   );
